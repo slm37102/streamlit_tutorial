@@ -17,7 +17,8 @@ st.markdown(
         background-color: #F5F5F5;
     }
     </style>
-    """
+    """,
+    unsafe_allow_html=True
 )
 
 @st.cache
